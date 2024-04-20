@@ -220,7 +220,7 @@ button[data-astro-cid-7mc3ftep]:active {
     --maxWidth: 1200px;
     --dark: #181a1b;
     --darkLighter: #242424;
-    --accent: #67fd67;
+    --accent: #1397d9;
     --accentRgb: 0, 163, 217;
     --shadowColor: rgba(0, 0, 0, .5);
     --shadow: 0 0 10px var(--shadowColor);
@@ -277,8 +277,9 @@ button[data-astro-cid-7mc3ftep]:active {
     }
 
     .tag-list[data-astro-cid-sv5liydy] {
-        margin-top: 8px;
-        gap: .5ch
+        margin-top: 10px;
+        gap: .5ch;
+        align-items: center;
     }
     
     .tag-block[data-astro-cid-sv5liydy] {
