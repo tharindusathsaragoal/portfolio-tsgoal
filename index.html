@@ -1718,7 +1718,7 @@
                                                 data-astro-cid-sv5liydy class="small" data-astro-cid-7mc3ftep><span
                                                     class="link-content items-center" data-astro-cid-sv5liydy>
                                                     View on GitHub
-                                                    <img src="assets/img/github-mark.svg" alt="Github" width="25" height="25"/>
+                                                    <img src="assets/img/github-mark.svg" alt="Github" class="github" data-astro-cid-nwk3hc3g/>
                                                 </span></button></a></div>
                                 </div>
                             </div>
@@ -1755,7 +1755,7 @@
                                                 data-astro-cid-sv5liydy class="small" data-astro-cid-7mc3ftep><span
                                                     class="link-content items-center" data-astro-cid-sv5liydy>
                                                     View on GitHub
-                                                    <img src="assets/img/github-mark.svg" alt="Github" width="25" height="25"/>
+                                                    <img src="assets/img/github-mark.svg" alt="Github" class="github" data-astro-cid-nwk3hc3g/>
                                                 </span></button></a></div>
                                 </div>
                             </div>
@@ -1792,7 +1792,7 @@
                                                 data-astro-cid-7mc3ftep><span class="link-content items-center"
                                                     data-astro-cid-sv5liydy>
                                                     View on GitHub
-                                                    <img src="assets/img/github-mark.svg" alt="Github" width="25" height="25"/>
+                                                    <img src="assets/img/github-mark.svg" alt="Github" class="github" data-astro-cid-nwk3hc3g/>
                                                 </span></button></a></div>
                                 </div>
                             </div>
@@ -1845,7 +1845,7 @@
                                                 data-astro-cid-7mc3ftep><span class="link-content items-center"
                                                     data-astro-cid-sv5liydy>
                                                     View on GitHub
-                                                    <img src="assets/img/github-mark.svg" alt="Github" width="25" height="25"/>
+                                                    <img src="assets/img/github-mark.svg" alt="Github" class="github" data-astro-cid-nwk3hc3g/>
                                                 </span></button></a></div>
                                 </div>
                             </div>
@@ -1853,9 +1853,9 @@
                         </div>
 
                         <div class="mt-10 text-center more-blogs md:mt-13">
-                            <a href="#" id="more-posts-button"
+                            <a href="#" id="more-projects-button"
                                 class="inline-flex items-center gap-2 text-[15px] font-medium border border-theme bg-theme text-white py-4.5 px-9 rounded-4xl leading-none transition-all duration-300 hover:bg-themeHover hover:border-themeHover">
-                                More Posts
+                                More Projects
                             </a>
                         </div>
 
@@ -2050,15 +2050,15 @@
     <script src="assets/js/custom.js"></script>
 
     <script type="text/javascript">
-        const morePostsButton = document.getElementById('more-posts-button');
+        const moreProjectsButton = document.getElementById('more-projects-button');
         const hiddenProjects = document.querySelectorAll('.project.hiddenAlways');
 
-        morePostsButton.addEventListener('click', function (event) {
+        moreProjectsButton.addEventListener('click', function (event) {
             event.preventDefault();
             hiddenProjects.forEach(project => {
                 project.classList.remove('hiddenAlways');
             });
-            morePostsButton.classList.add('hiddenAlways');
+            moreProjectsButton.classList.add('hiddenAlways');
         });
     </script>
 
